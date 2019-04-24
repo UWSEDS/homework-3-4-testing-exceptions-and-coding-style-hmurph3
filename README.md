@@ -2,7 +2,7 @@
 
 **Note: This homework is double credit.**
 
-In this homework, you will create two python modules.
+In this homework, you will create two python modules and put them in PEP8 style.
 
 1. Function code (5 points). Last week you wrote python codes that read an online file and created a data frame that has at least 3 columns. Now: (a) create a python module ``dataframe.py`` that reads the data in homework 2;  and (b) ``dataframpe.py`` should generate an ValueError execption if the dataframe doesn't have the expected column names.
 
@@ -13,4 +13,4 @@ In this homework, you will create two python modules.
    - There are no nan values.
    - The dataframe has at least one row.
    
-1. Coding style (4). Make all codes PEP8 compliant and provide the output from pylint to demonstrate that you have accomplished this.
+1. Coding style (4 points). Make all codes PEP8 compliant and provide the output from pylint to demonstrate that you have accomplished this.
