@@ -12,7 +12,7 @@ In this homework, you will create two python modules.
 
 1. (6 points) Create a python file test_dataframe.py that has unit tests for dataframe.py. These codes should also be PEP8 complaint. Include at least 2 of the following tests:
 
-  - You have the expected columns.
-  - Values in the column are all of the expected type.
-  - There are no nan values.
-  - The dataframe has at least one row.
+   - You have the expected columns.
+   - Values in the column are all of the expected type.
+   - There are no nan values.
+   - The dataframe has at least one row.
