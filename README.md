@@ -14,3 +14,5 @@ In this homework, you will create two python modules and put them in PEP8 style.
    - The dataframe has at least one row.
    
 1. Coding style (4 points). Make all codes PEP8 compliant and provide the output from pylint to demonstrate that you have accomplished this.
+
+The data source I used for this is the City of Seattle Wage Data that can be found at https://data.seattle.gov/City-Business/City-of-Seattle-Wage-Data/2khk-5ukd.
