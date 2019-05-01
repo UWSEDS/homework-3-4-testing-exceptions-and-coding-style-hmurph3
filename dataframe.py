@@ -24,11 +24,14 @@ def dataframe():
                         dtype={"Department": str, "LastName": str,
                                "FirstName": str, "JobTitle": str,
                                "HourlyRate": float})
+
     column_titles = ["Department", "LastName", "FirstName", "JobTitle",
                      "HourlyRate"]
-    wages_col_titles = list(wages)
+    
+    wages_col_titles = list(wages.columns)
 
-    if all(x in column_titles for x in wages_col_titles):
+    if (all(x in column_titles for x in wages_col_titles)
+            and wages.shape[1] > 3):
         return wages
     else:
         raise ValueError("Unexpected column titles")
